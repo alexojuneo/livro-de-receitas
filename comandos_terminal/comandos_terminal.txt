@@ -1,0 +1,63 @@
+comandos básicos Windosw/Linux Terminal.
+
+- Windows -
+
+mover entre diretórios: cd
+listar pastas e arquivos do local que vc se encontra: dir
+criar diretórios: mkdir
+deletar o diretório junto com as subpastas e arquivos: del /rmdir (rmdir = remove directory). 
+mover rapidamente para a pasta raíz: cd /
+navegar para o diretório anterior em 1 nível: cd ..
+comando para mover arquivos: mv exemplo: "mv strogonoff.html ./receitas"
+limpar tela: cls
+criar arquivos: echo > nome do arquivo + extensão. Exemplo: echo > README.md
+
+- Linux -
+
+mover entre diretórios: cd
+listar pastas e arquivos do local que vc se encontra: ls (adicionar flag -a, vê pastas e arquivos ocultos).
+criar diretórios: mkdir
+deletar o diretório junto com as subpastas e arquivos: rm -rf (r = remove / f = não aparecer mensagem perguntando se quer realmente deletar).
+mover rapidamente para a pasta raíz: cd /
+navegar para o diretório anterior em 1 nível: cd ..
+comando para mover arquivos: mv exemplo: "mv strogonoff.html ./receitas"
+limpar tela: Ctrl + l ou clear
+criar arquivos: echo > nome do arquivo + extensão. Exemplo: echo > README.md
+
+---------------------------------------
+Comandos de Versionamento de Código.
+
+git init (iniciar o git)
+git add (git add * ou git add . ou git add "nome do arquivo") 
+git commit (git commit -m "") (adicionar comentário com alterações do arquivo ou não)
+git status
+git remote add origin (comando para ligar seu repositório local para o repositório online no GitHub)
+git remote -v (Mostra lista de respositorios que eu tenho cadastrado)
+git push origin master (subir todas as alterações e commits para o repositório online no github) (empurrar o seu código local para o git hub)
+git pull origin master (puxar) Puxar alterações do git e juntar com o código que está em sua máquina local.
+git clone (link do github para clonar)
+
+git config --global user.email "email que utiliza no github"
+git config --global user.name "usuáio que utiliza no github"
+git config --global --unset user.email
+git config --global --unset user.name
+git config --list
+
+- Flags -
+
+São comandos adicionados por (-). Exemplo ls -a.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
